@@ -20,7 +20,7 @@ if __name__ == "__main__":
     """
         extract employee name
     """
-    employee_name = employee.get("name")
+    employee_name = employee.get("name of employee")
 
     """
         request user's TODO list
@@ -52,3 +52,4 @@ if __name__ == "__main__":
     for k, v in tasks.items():
         if v is True:
             print("\t {}".format(k))
+            

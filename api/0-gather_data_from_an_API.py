@@ -21,7 +21,6 @@ if __name__ == "__main__":
         extract employee name
     """
     employee_name = employee.get("name of employee")
-
     """
         request user's TODO list
     """
@@ -40,7 +39,6 @@ if __name__ == "__main__":
     """
     for dictionary in employee_todos:
         tasks.update({dictionary.get("title"): dictionary.get("completed")})
-
     """
         return name, total number of tasks & completed tasks
     """
